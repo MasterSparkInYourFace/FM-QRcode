@@ -6,9 +6,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshots (mobile and desktop viewports)
 
-[desktop](./screenshots/desktop.png)
-[mobile](./screenshots/mobile.png)
-
+![desktop](./screenshots/desktop.png)
+![mobile](./screenshots/mobile.png)
 ### Built with
 
 - HTML 5
