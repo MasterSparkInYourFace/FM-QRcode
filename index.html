@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: "Outfit";
+      src: url("fonts/Outfit-Regular.ttf") format(truetype);
+      font-weight: 400;
+    }
+
+    @font-face {
+      font-family: "OutfitBold";
+      src: url("fonts/Outfit-Bold.ttf") format(truetype);
+      font-weight: 700;
+    }
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+      font-family: "Outfit";
+    }
+
+    h3 {
+      font-family: "OutfitBold";
+    }
+
+    #background {
+      position: absolute;
+      background-color: hsl(0, 0%, 100%);
+      box-sizing: border-box;
+      padding: 20px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 30px;
+    }
+
+    #qrcode {
+      margin: auto;
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    #c-header, #c-text {
+      text-align: center;
+      font-size: 15px;
+    }
+
+    #c-text {
+      color: hsl(220, 15%, 55%);
+    }
+
+    @media only screen and (min-width: 376px) {
+      /* glorious PC monitor */
+      #background {
+        width: 15%;
+      }
+    }
+
+    @media only screen and (max-width: 375px) {
+      /* garbage phone screen */
+      #background {
+        width: 90%;
+      }
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="background" class="rounded">
+    <img id="qrcode" class="rounded" src="images/image-qr-code.png" alt="QR code" title="QR code"></img>
+    <h3 id="c-header">
+      Improve your front-end skills by building projects
+    </h3>
+    <p id="c-text">
+      while giggling at how tiny this looks on any reasonable monitor.
+      UI component for ants lmaooooo
+    </p>
+  </div>
+  <br />
+  <div class="attribution">
+    Written by <a href="https://github.com/MasterSparkInYourFace">MasterSparkInYourFace</strong>.
+  </div>
+</body>
+</html>
